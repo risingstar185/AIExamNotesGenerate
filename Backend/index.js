@@ -17,7 +17,7 @@ const app=express();
 app.use(cookieParser());
 app.use(cors(
   {
-    origin: 'http://localhost:5174', // Replace with your frontend URL
+    origin: 'https://aiexamnotes.onrender.com', // Replace with your frontend URL
     credentials: true, // Allow cookies to be sent with requests
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
   }
